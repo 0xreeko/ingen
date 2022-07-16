@@ -3,11 +3,12 @@ import Head from 'next/head'
 import { Editor } from '../components/Editor/Editor'
 import { Footer } from '../components/Footer/Footer'
 import { Header } from '../components/Header/Header'
+import { Hero } from '../components/Hero/Hero'
 import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
   return (
-    <div className="bg-[#ed194a] h-screen">
+    <div className={styles.container}>
       <Head>
         <title>Ingen</title>
         <meta name="author" content="0xreeko" />
@@ -17,6 +18,7 @@ const Home: NextPage = () => {
       {/* header */}
       <Header />
       <main className={styles.main}>
+        <Hero /> 
         <Editor />
         </main>
       {/* footer */}

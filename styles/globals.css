@@ -1,3 +1,91 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  * {
+    font-family: 'Lato', sans-serif;
+  }
+
+}
+
+:root {
+  --desktop-hero: #ed194a;
+}
+
+  
+  .desktop-h1{
+  font-size: 2.986rem;
+  line-height: 1.3;
+  }
+  .desktop-h2{
+    font-size: 2.488rem;
+    line-height: 1.3;
+  }
+  .desktop-h3{
+    font-size: 2.074rem;
+    line-height: 1.3;
+  }
+  .desktop-h4{
+    font-size: 1.728rem;
+    line-height: 1.3;
+  }
+  .desktop-subhead{
+  font-size: 1.44rem;
+  }
+  .desktop-b2{
+    font-size: 1.2rem; 
+  }
+  .desktop-b1{
+    font-size: 1;
+  }
+  .desktop-b0{
+    font-size: 0.833rem;
+  }
+  .desktop-overline{
+    font-weight: 700;
+    font-size: 0.694rem;
+    text-transform: uppercase;
+    letter-spacing: 0.25rem;
+  }
+  
+  .mobile-hero {
+    font-size: 2.281rem;
+    font-weight: 900;
+    line-height: 1.75;
+  }
+  
+  .mobile-h1{
+  font-size: 2.027rem;
+  line-height: 1.75;
+  }
+  .mobile-h2{
+    font-size: 1.802rem;
+    line-height: 1.75;
+  }
+  .mobile-h3{
+    font-size: 1.602rem;
+    line-height: 1.75;
+  }
+  .mobile-h4{
+    font-size: 1.424rem;
+    line-height: 1.75;
+  }
+  .mobile-sub{
+  font-size: 1.266rem;
+  }
+  .mobile-b2{
+    font-size: 1.125rem; 
+  }
+  .mobile-b1{
+    font-size: 1;
+  }
+  .mobile-b0{
+    font-size: 0.889rem;
+  }
+  .mobile-overline{
+    font-weight: 700;
+    font-size: 0.79rem;
+    text-transform: uppercase;
+    letter-spacing: 0.25rem;
+  }
