@@ -1,0 +1,7 @@
+.container {
+    @apply w-[210mm] h-[297mm] bg-sylver-400 p-8 pt-20 outline-none
+}
+
+.header {
+    @apply h-2 bg-scarlet-500;
+}

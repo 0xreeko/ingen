@@ -1,3 +1,21 @@
 .container {
-    @apply w-full border;
+    @apply flex flex-col items-center w-full py-6;
 }
+
+.twriter {
+    @apply pl-2 text-russian-500/80
+}
+
+.hero {
+    @apply flex 
+}
+
+.subhead {
+    @apply text-sylver-100
+}
+
+.supasonic {
+    @apply text-azure-600/80 font-bold underline
+}
+
+
